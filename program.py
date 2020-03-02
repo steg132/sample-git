@@ -24,5 +24,5 @@ def get_prime(prime_index):
 
 
 if __name__ == "__main__":
-    for i in range(1, len(sys.argv)):
+    for i in range(0, len(sys.argv)):
         print(get_prime(int(sys.argv[i])))
